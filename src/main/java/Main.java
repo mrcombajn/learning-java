@@ -1,6 +1,10 @@
+import DataTypes.Types;
+
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("2137");}
+    public static void main(String[] args) throws IOException {
+        new Types();
+    }
 }
